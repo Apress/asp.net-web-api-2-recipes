@@ -1,0 +1,14 @@
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Chapter 2\2-1\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Debug\Apress.Recipes.WebApi.exe.config
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Chapter 2\2-1\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Debug\Apress.Recipes.WebApi.exe
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Chapter 2\2-1\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Debug\Apress.Recipes.WebApi.pdb
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Chapter 2\2-1\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Debug\Newtonsoft.Json.dll
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Chapter 2\2-1\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Chapter 2\2-1\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Debug\System.Web.Http.dll
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Chapter 2\2-1\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Debug\System.Web.Http.SelfHost.dll
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Chapter 2\2-1\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Debug\Newtonsoft.Json.xml
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Chapter 2\2-1\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Chapter 2\2-1\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Debug\System.Web.Http.xml
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Chapter 2\2-1\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Debug\System.Web.Http.SelfHost.xml
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Chapter 2\2-1\Apress.Recipes.WebApi\Apress.Recipes.WebApi\obj\Debug\Apress.Recipes.WebApi.csprojResolveAssemblyReference.cache
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Chapter 2\2-1\Apress.Recipes.WebApi\Apress.Recipes.WebApi\obj\Debug\Apress.Recipes.WebApi.exe
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Chapter 2\2-1\Apress.Recipes.WebApi\Apress.Recipes.WebApi\obj\Debug\Apress.Recipes.WebApi.pdb

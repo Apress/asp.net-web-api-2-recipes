@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.Owin.Testing</id>
+    <version>2.1.0</version>
+    <title>Microsoft.Owin.Testing</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>http://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_enu.htm</licenseUrl>
+    <projectUrl>http://katanaproject.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Provides helper classes for unit testing OWIN components.</description>
+    <tags>Microsoft OWIN Katana</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.0">
+        <dependency id="Owin" version="1.0" />
+        <dependency id="Microsoft.Net.Http" version="2.2.13" />
+        <dependency id="Microsoft.Owin.Hosting" version="2.1.0" />
+      </group>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="Owin" version="1.0" />
+        <dependency id="Microsoft.Owin.Hosting" version="2.1.0" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Net.Http" targetFramework=".NETFramework4.5" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

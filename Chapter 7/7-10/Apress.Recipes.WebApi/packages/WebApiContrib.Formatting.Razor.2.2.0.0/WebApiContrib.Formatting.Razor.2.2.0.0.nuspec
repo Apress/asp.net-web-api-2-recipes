@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>WebApiContrib.Formatting.Razor</id>
+    <version>2.2.0.0</version>
+    <title>WebApiContrib.Formatting.Razor</title>
+    <authors>WebApiContrib Contributors</authors>
+    <owners>WebApiContrib Contributors</owners>
+    <licenseUrl>https://raw.github.com/WebApiContrib/WebApiContrib.Formatting.Razor/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/WebApiContrib/WebApiContrib.Formatting.Razor</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>HttpMediaTypeFormatter used to generate HTML using RazorEngine.</description>
+    <copyright>Copyright © WebApiContrib 2012 - 2013</copyright>
+    <tags>webapi webapicontrib razor</tags>
+    <dependencies>
+      <dependency id="RazorEngine" version="3.4.0" />
+      <dependency id="WebApiContrib.Formatting.Html" version="2.0.0" />
+    </dependencies>
+  </metadata>
+</package>

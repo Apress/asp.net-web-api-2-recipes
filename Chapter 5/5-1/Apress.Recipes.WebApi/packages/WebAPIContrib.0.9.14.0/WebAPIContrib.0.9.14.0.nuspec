@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>WebAPIContrib</id>
+    <version>0.9.14.0</version>
+    <title>WebApiContrib</title>
+    <authors>WebApiContrib Contributors</authors>
+    <owners>WebApiContrib Contributors</owners>
+    <licenseUrl>https://raw.github.com/WebApiContrib/WebApiContrib/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/WebApiContrib/WebApiContrib</projectUrl>
+    <iconUrl>https://2.gravatar.com/avatar/f1ad1241dfb26dcb97abfeb8375a5971?s=128</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Community Contributions for ASP.NET Web API</description>
+    <copyright>Copyright © WebApiContrib 2012 - 2013</copyright>
+    <tags>webapi webapicontrib extensions</tags>
+    <dependencies>
+      <dependency id="Microsoft.AspNet.WebApi.Core" version="4.0.20710.0" />
+      <dependency id="TaskHelpers.Sources" version="0.1" />
+    </dependencies>
+  </metadata>
+</package>

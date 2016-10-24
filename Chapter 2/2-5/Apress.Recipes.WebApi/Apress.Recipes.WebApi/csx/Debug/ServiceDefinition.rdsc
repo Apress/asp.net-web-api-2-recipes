@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<serviceContract xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" dslVersion="1.0.0.0" name="Apress.Recipes.WebApiContract" xmlns="http://schemas.microsoft.com/dsltools/Contracts">
+  <elements>
+    <interface name="ApressWebApiWorker:Default" url="http://*:900" />
+  </elements>
+</serviceContract>

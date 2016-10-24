@@ -1,0 +1,314 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApiContrib.Formatting.Html</name>
+    </assembly>
+    <members>
+        <member name="T:WebApiContrib.Formatting.Html.GlobalViews">
+            <summary>
+            Global configuration of <see cref="T:WebApiContrib.Formatting.Html.Formatting.HtmlMediaTypeViewFormatter"/> instances.
+            </summary>
+        </member>
+        <member name="P:WebApiContrib.Formatting.Html.GlobalViews.Views">
+            <summary>
+            User-defined mappings from model types to view names.
+            </summary>
+        </member>
+        <member name="P:WebApiContrib.Formatting.Html.GlobalViews.DefaultViewLocator">
+            <summary>
+            Default <see cref="T:WebApiContrib.Formatting.Html.IViewLocator"/> to be used for retrieval of view templates.
+            </summary>
+        </member>
+        <member name="P:WebApiContrib.Formatting.Html.GlobalViews.DefaultViewParser">
+            <summary>
+            Default <see cref="T:WebApiContrib.Formatting.Html.IViewParser"/> to be used for generation of views from view templates.
+            </summary>
+        </member>
+        <member name="T:WebApiContrib.Formatting.Html.Extensions">
+            <summary>
+            Configuration extensions for rendering HTML responses.
+            </summary>
+        </member>
+        <member name="M:WebApiContrib.Formatting.Html.Extensions.GetHtmlFormatter(System.Net.Http.Formatting.MediaTypeFormatterCollection)">
+            <summary>
+            Retrieves the <see cref="T:System.Net.Http.Formatting.MediaTypeFormatter"/> registered to handle HTML.
+            </summary>
+            <param name="formatters">The <see cref="T:System.Net.Http.Formatting.MediaTypeFormatterCollection"/>.</param>
+            <returns>The HtmlMediaTypeFormatter registered to handle requests for HTML.</returns>
+        </member>
+        <member name="M:WebApiContrib.Formatting.Html.Extensions.View(System.Net.Http.HttpRequestMessage,System.String,System.Object)">
+            <summary>
+            Creates a <see cref="T:WebApiContrib.Formatting.Html.ViewResult"/> using the current <see cref="T:System.Net.Http.HttpRequestMessage"/>.
+            </summary>
+            <param name="requestMessage">The <see cref="T:System.Net.Http.HttpRequestMessage"/>.</param>
+            <param name="viewName">The name of the view.</param>
+            <param name="model">The model to render into the view.</param>
+            <returns>The <see cref="T:WebApiContrib.Formatting.Html.ViewResult"/>.</returns>
+        </member>
+        <member name="M:WebApiContrib.Formatting.Html.Extensions.View(System.Net.Http.HttpRequestMessage,System.String,System.Object,System.Type)">
+            <summary>
+            Creates a <see cref="T:WebApiContrib.Formatting.Html.ViewResult"/> using the current <see cref="T:System.Net.Http.HttpRequestMessage"/>.
+            </summary>
+            <param name="requestMessage">The <see cref="T:System.Net.Http.HttpRequestMessage"/>.</param>
+            <param name="viewName">The name of the view.</param>
+            <param name="model">The model to render into the view.</param>
+            <param name="modelType">The type of the <paramref name="model"/>.</param>
+            <returns>The <see cref="T:WebApiContrib.Formatting.Html.ViewResult"/>.</returns>
+        </member>
+        <member name="M:WebApiContrib.Formatting.Html.Extensions.View(System.Web.Http.ApiController,System.String,System.Object)">
+            <summary>
+            Creates a <see cref="T:WebApiContrib.Formatting.Html.ViewResult"/> using the current <see cref="T:System.Web.Http.ApiController"/>.
+            </summary>
+            <param name="controller">The <see cref="T:System.Web.Http.ApiController"/>.</param>
+            <param name="viewName">The name of the view.</param>
+            <param name="model">The model to render into the view.</param>
+            <returns>The <see cref="T:WebApiContrib.Formatting.Html.ViewResult"/>.</returns>
+        </member>
+        <member name="M:WebApiContrib.Formatting.Html.Extensions.View(System.Web.Http.ApiController,System.String,System.Object,System.Type)">
+            <summary>
+            Creates a <see cref="T:WebApiContrib.Formatting.Html.ViewResult"/> using the current <see cref="T:System.Web.Http.ApiController"/>.
+            </summary>
+            <param name="controller">The <see cref="T:System.Web.Http.ApiController"/>.</param>
+            <param name="viewName">The name of the view.</param>
+            <param name="model">The model to render into the view.</param>
+            <param name="modelType">The type of the <paramref name="model"/>.</param>
+            <returns>The <see cref="T:WebApiContrib.Formatting.Html.ViewResult"/>.</returns>
+        </member>
+        <member name="T:WebApiContrib.Formatting.Html.Formatting.HtmlMediaTypeViewFormatter">
+            <summary>
+            A <see cref="T:System.Net.Http.Formatting.MediaTypeFormatter"/> that produces HTML content.
+            </summary>
+        </member>
+        <member name="M:WebApiContrib.Formatting.Html.Formatting.HtmlMediaTypeViewFormatter.#ctor(System.String,WebApiContrib.Formatting.Html.IViewLocator,WebApiContrib.Formatting.Html.IViewParser)">
+            <summary>
+            Creates a new <see cref="T:WebApiContrib.Formatting.Html.Formatting.HtmlMediaTypeViewFormatter"/> instance.
+            </summary>
+            <param name="siteRootPath">Physical or virtual root path for resolution of view templates.</param>
+            <param name="viewLocator">The view locator to use for retrieval of view templates.</param>
+            <param name="viewParser">The view parser to use for generation of views from view templates.</param>
+        </member>
+        <member name="M:WebApiContrib.Formatting.Html.Formatting.HtmlMediaTypeViewFormatter.CanWriteType(System.Type)">
+            <summary>
+            Queries whether this <see cref="T:System.Net.Http.Formatting.MediaTypeFormatter"/> can serializean object of the specified type.
+            </summary>
+            <param name="type">The type to serialize.</param>
+            <returns>
+            true if the <see cref="T:System.Net.Http.Formatting.MediaTypeFormatter"/> can serialize the type; otherwise, false.
+            </returns>
+        </member>
+        <member name="M:WebApiContrib.Formatting.Html.Formatting.HtmlMediaTypeViewFormatter.CanReadType(System.Type)">
+            <summary>
+            Queries whether this <see cref="T:System.Net.Http.Formatting.MediaTypeFormatter"/> can deserializean object of the specified type.
+            </summary>
+            <param name="type">The type to deserialize.</param>
+            <returns>
+            true if the <see cref="T:System.Net.Http.Formatting.MediaTypeFormatter"/> can deserialize the type; otherwise, false.
+            </returns>
+        </member>
+        <member name="M:WebApiContrib.Formatting.Html.Formatting.HtmlMediaTypeViewFormatter.ReadFromStreamAsync(System.Type,System.IO.Stream,System.Net.Http.HttpContent,System.Net.Http.Formatting.IFormatterLogger)">
+            <summary>
+            Asynchronously deserializes an object of the specified type.
+            </summary>
+            <param name="type">The type of the object to deserialize.</param>
+            <param name="readStream">The <see cref="T:System.IO.Stream"/> to read.</param>
+            <param name="content">The <see cref="T:System.Net.Http.HttpContent"/>, if available. It may be null.</param>
+            <param name="formatterLogger">The <see cref="T:System.Net.Http.Formatting.IFormatterLogger"/> to log events to.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> whose result will be an object of the given type.
+            </returns>
+            <exception cref="T:System.NotSupportedException">Derived types need to support reading.</exception>
+        </member>
+        <member name="M:WebApiContrib.Formatting.Html.Formatting.HtmlMediaTypeViewFormatter.GetPerRequestFormatterInstance(System.Type,System.Net.Http.HttpRequestMessage,System.Net.Http.Headers.MediaTypeHeaderValue)">
+            <summary>
+            Returns a specialized instance of the <see cref="T:System.Net.Http.Formatting.MediaTypeFormatter"/> that can format a response for the given parameters.
+            </summary>
+            <param name="type">The type to format.</param>
+            <param name="request">The request.</param>
+            <param name="mediaType">The media type.</param>
+            <returns>
+            Returns <see cref="T:System.Net.Http.Formatting.MediaTypeFormatter"/>.
+            </returns>
+        </member>
+        <member name="M:WebApiContrib.Formatting.Html.Formatting.HtmlMediaTypeViewFormatter.WriteToStreamAsync(System.Type,System.Object,System.IO.Stream,System.Net.Http.HttpContent,System.Net.TransportContext)">
+            <summary>
+            Asynchronously writes an object of the specified type.
+            </summary>
+            <param name="type">The type of the object to write.</param>
+            <param name="value">The object value to write.  It may be null.</param>
+            <param name="writeStream">The <see cref="T:System.IO.Stream"/> to which to write.</param>
+            <param name="content">The <see cref="T:System.Net.Http.HttpContent"/> if available. It may be null.</param>
+            <param name="transportContext">The <see cref="T:System.Net.TransportContext"/> if available. It may be null.</param>
+            <returns>
+            A <see cref="T:System.Threading.Tasks.Task"/> that will perform the write.
+            </returns>
+            <exception cref="T:System.NotSupportedException">Derived types need to support writing.</exception>
+        </member>
+        <member name="T:WebApiContrib.Formatting.Html.Formatting.HtmlMediaTypeViewFormatter.View">
+            <summary>
+            Represents default implementation of <see cref="T:WebApiContrib.Formatting.Html.IView"/> interface.
+            </summary>
+        </member>
+        <member name="T:WebApiContrib.Formatting.Html.IView">
+            <summary>
+            Represents an abstract view.
+            </summary>
+        </member>
+        <member name="P:WebApiContrib.Formatting.Html.IView.Model">
+            <summary>
+            The data to be presented by the view.
+            </summary>
+        </member>
+        <member name="P:WebApiContrib.Formatting.Html.IView.ModelType">
+            <summary>
+            Optional explicit definition of data type for <see cref="P:WebApiContrib.Formatting.Html.IView.Model"/>. When specified,
+            this type must be public and have a type name that matches the C# and VB language
+            rules for identifiers. It should not be set if the model is an anonymous type or
+            a compiler-generated iterator (enumerable or enumerator) type.
+            </summary>
+            <remarks>
+            This property can be used by view engines to create strong-typed view templates. 
+            </remarks>
+        </member>
+        <member name="P:WebApiContrib.Formatting.Html.IView.ViewName">
+            <summary>
+            The view name, used to resolve the view template definition.
+            </summary>
+        </member>
+        <member name="M:WebApiContrib.Formatting.Html.Formatting.HtmlMediaTypeViewFormatter.View.#ctor(System.String,System.Object)">
+            <summary>
+            Creates a new <see cref="T:WebApiContrib.Formatting.Html.Formatting.HtmlMediaTypeViewFormatter.View"/> instance.
+            </summary>
+            <param name="viewName">The view name, used to resolve the view template definition.</param>
+            <param name="model">The data to be presented by the view.</param>
+        </member>
+        <member name="M:WebApiContrib.Formatting.Html.Formatting.HtmlMediaTypeViewFormatter.View.#ctor(System.String,System.Object,System.Type)">
+            <summary>
+            Creates a new <see cref="T:WebApiContrib.Formatting.Html.Formatting.HtmlMediaTypeViewFormatter.View"/> instance.
+            </summary>
+            <param name="viewName">The view name, used to resolve the view template definition.</param>
+            <param name="model">The data to be presented by the view.</param>
+            <param name="modelType">Optional explicit definition of data type for <see cref="P:WebApiContrib.Formatting.Html.Formatting.HtmlMediaTypeViewFormatter.View.Model"/>. 
+            </param>
+            <exception cref="T:System.ArgumentException"><paramref name="modelType"/> must be public.</exception>
+        </member>
+        <member name="P:WebApiContrib.Formatting.Html.Formatting.HtmlMediaTypeViewFormatter.View.Model">
+            <summary>
+            The data to be presented by the view.
+            </summary>
+        </member>
+        <member name="P:WebApiContrib.Formatting.Html.Formatting.HtmlMediaTypeViewFormatter.View.ViewName">
+            <summary>
+            The view name, used to resolve the view template definition.
+            </summary>
+        </member>
+        <member name="P:WebApiContrib.Formatting.Html.Formatting.HtmlMediaTypeViewFormatter.View.ModelType">
+            <summary>
+            Optional explicit definition of data type for <see cref="P:WebApiContrib.Formatting.Html.Formatting.HtmlMediaTypeViewFormatter.View.Model"/>. When specified,
+            this type must be public and have a type name that matches the C# and VB language
+            rules for identifiers. It should not be set if the model is an anonymous type or
+            a compiler-generated iterator (enumerable or enumerator) type.
+            </summary>
+        </member>
+        <member name="T:WebApiContrib.Formatting.Html.IViewLocator">
+            <summary>
+            Interface for view locators. A view locator loads unparsed view templates 
+            for abstract views.
+            </summary>
+        </member>
+        <member name="M:WebApiContrib.Formatting.Html.IViewLocator.GetView(System.String,WebApiContrib.Formatting.Html.IView)">
+            <summary>
+            Retrieves unparsed view template for an abstract view definition.
+            </summary>
+            <param name="siteRootPath">Physical or virtual root path for resolution of view templates.</param>
+            <param name="view">An abstract view definition.</param>
+            <returns>The unparsed view template for <paramref name="view"/>.</returns>
+        </member>
+        <member name="T:WebApiContrib.Formatting.Html.ViewResult">
+            <summary>
+            Represents default implementation of <see cref="T:WebApiContrib.Formatting.Html.IView"/> interface.
+            </summary>
+        </member>
+        <member name="M:WebApiContrib.Formatting.Html.ViewResult.#ctor(System.Net.Http.HttpRequestMessage,System.String,System.Object)">
+            <summary>
+            Creates a new <see cref="T:WebApiContrib.Formatting.Html.ViewResult"/> instance.
+            </summary>
+            <param name="request">The current request message.</param>
+            <param name="viewName">The view name, used to resolve the view template definition.</param>
+            <param name="model">The data to be presented by the view.</param>
+        </member>
+        <member name="M:WebApiContrib.Formatting.Html.ViewResult.#ctor(System.Net.Http.HttpRequestMessage,System.String,System.Object,System.Type)">
+            <summary>
+            Creates a new <see cref="T:WebApiContrib.Formatting.Html.ViewResult"/> instance.
+            </summary>
+            <param name="request">The current request message.</param>
+            <param name="viewName">The view name, used to resolve the view template definition.</param>
+            <param name="model">The data to be presented by the view.</param>
+            <param name="modelType">Optional explicit definition of data type for <see cref="P:WebApiContrib.Formatting.Html.ViewResult.Model"/>. 
+            </param>
+            <exception cref="T:System.ArgumentException"><paramref name="modelType"/> must be public.</exception>
+        </member>
+        <member name="M:WebApiContrib.Formatting.Html.ViewResult.ExecuteAsync(System.Threading.CancellationToken)">
+            <summary>
+            Executes this <see cref="T:System.Web.Http.IHttpActionResult"/> to retrieve a <see cref="T:System.Net.Http.HttpResponseMessage"/> from the view data.
+            </summary>
+            <param name="cancellationToken">The cancellation token.</param>
+            <returns>The <see cref="T:System.Net.Http.HttpResponseMessage"/> representing the view data.</returns>
+        </member>
+        <member name="P:WebApiContrib.Formatting.Html.ViewResult.RequestMessage">
+            <summary>
+            The current request message.
+            </summary>
+        </member>
+        <member name="P:WebApiContrib.Formatting.Html.ViewResult.Model">
+            <summary>
+            The data to be presented by the view.
+            </summary>
+        </member>
+        <member name="P:WebApiContrib.Formatting.Html.ViewResult.ViewName">
+            <summary>
+            The view name, used to resolve the view template definition.
+            </summary>
+        </member>
+        <member name="P:WebApiContrib.Formatting.Html.ViewResult.ModelType">
+            <summary>
+            Optional explicit definition of data type for <see cref="P:WebApiContrib.Formatting.Html.ViewResult.Model"/>. When specified,
+            this type must be public and have a type name that matches the C# and VB language
+            rules for identifiers. It should not be set if the model is an anonymous type or
+            a compiler-generated iterator (enumerable or enumerator) type.
+            </summary>
+        </member>
+        <member name="T:WebApiContrib.Formatting.Html.ViewAttribute">
+            <summary>
+            Attribute to override the default view name for a model type. By default the
+            view name is assumed to equal the model class name.
+            </summary>
+        </member>
+        <member name="M:WebApiContrib.Formatting.Html.ViewAttribute.#ctor(System.String)">
+            <summary>
+            Creates a new <see cref="T:WebApiContrib.Formatting.Html.ViewAttribute"/> instance.
+            </summary>
+            <param name="viewName">The view name, used to resolve view template definitions.</param>
+        </member>
+        <member name="P:WebApiContrib.Formatting.Html.ViewAttribute.ViewName">
+            <summary>
+            The view name, used to resolve view template definitions.
+            </summary>
+        </member>
+        <member name="T:WebApiContrib.Formatting.Html.IViewParser">
+            <summary>
+            Interface for view template parsers. A view template 
+            parser transforms abstract views into concrete views
+            based using view templates.
+            </summary>
+        </member>
+        <member name="M:WebApiContrib.Formatting.Html.IViewParser.ParseView(WebApiContrib.Formatting.Html.IView,System.String,System.Text.Encoding)">
+            <summary>
+            Generates concrete view for a given abstract view.
+            </summary>
+            <param name="view">The abstract view.</param>
+            <param name="viewTemplate">The view template to be used to generate the concrete view.</param>
+            <param name="encoding">The text encoding of the concrete view.</param>
+            <returns>Byte representation of the generated concrete view.</returns>
+        </member>
+    </members>
+</doc>

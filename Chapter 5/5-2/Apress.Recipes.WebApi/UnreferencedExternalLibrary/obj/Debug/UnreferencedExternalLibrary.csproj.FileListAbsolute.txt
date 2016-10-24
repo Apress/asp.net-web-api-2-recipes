@@ -1,0 +1,12 @@
+D:\Dropbox\apress\code\Chapter 5\5-4\Apress.Recipes.WebApi\UnreferencedExternalLibrary\bin\Debug\UnreferencedExternalLibrary.dll
+D:\Dropbox\apress\code\Chapter 5\5-4\Apress.Recipes.WebApi\UnreferencedExternalLibrary\bin\Debug\UnreferencedExternalLibrary.pdb
+D:\Dropbox\apress\code\Chapter 5\5-4\Apress.Recipes.WebApi\UnreferencedExternalLibrary\bin\Debug\Newtonsoft.Json.dll
+D:\Dropbox\apress\code\Chapter 5\5-4\Apress.Recipes.WebApi\UnreferencedExternalLibrary\bin\Debug\System.Net.Http.Formatting.dll
+D:\Dropbox\apress\code\Chapter 5\5-4\Apress.Recipes.WebApi\UnreferencedExternalLibrary\bin\Debug\System.Web.Http.dll
+D:\Dropbox\apress\code\Chapter 5\5-4\Apress.Recipes.WebApi\UnreferencedExternalLibrary\bin\Debug\Newtonsoft.Json.xml
+D:\Dropbox\apress\code\Chapter 5\5-4\Apress.Recipes.WebApi\UnreferencedExternalLibrary\bin\Debug\System.Net.Http.Formatting.xml
+D:\Dropbox\apress\code\Chapter 5\5-4\Apress.Recipes.WebApi\UnreferencedExternalLibrary\bin\Debug\System.Web.Http.xml
+D:\Dropbox\apress\code\Chapter 5\5-4\Apress.Recipes.WebApi\UnreferencedExternalLibrary\obj\Debug\UnreferencedExternalLibrary.dll
+D:\Dropbox\apress\code\Chapter 5\5-4\Apress.Recipes.WebApi\UnreferencedExternalLibrary\obj\Debug\UnreferencedExternalLibrary.pdb
+D:\Dropbox\apress\code\Chapter 5\5-4\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Debug\UnreferencedExternalLibrary.dll
+D:\Dropbox\apress\code\Chapter 5\5-4\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Debug\UnreferencedExternalLibrary.pdb

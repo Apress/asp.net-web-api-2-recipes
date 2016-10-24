@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>WebApiContrib.Formatting.Html</id>
+    <version>2.0.0</version>
+    <title>WebApiContrib.Formatting.Html</title>
+    <authors>WebApiContrib Contributors</authors>
+    <owners>WebApiContrib Contributors</owners>
+    <licenseUrl>https://raw.github.com/WebApiContrib/WebApiContrib.Formatting.Html/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/WebApiContrib/WebApiContrib.Formatting.Html</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Foundational HttpMediaTypeFormatter to provide generated HTML markup from ASP.NET Web API</description>
+    <copyright>Copyright © WebApiContrib 2012 - 2013</copyright>
+    <tags>webapi webapicontrib html</tags>
+    <dependencies>
+      <dependency id="Microsoft.AspNet.WebApi.Core" version="5.0.0" />
+    </dependencies>
+  </metadata>
+</package>

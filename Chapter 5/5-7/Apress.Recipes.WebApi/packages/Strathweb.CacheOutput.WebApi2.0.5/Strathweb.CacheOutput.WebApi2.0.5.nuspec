@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Strathweb.CacheOutput.WebApi2</id>
+    <version>0.5</version>
+    <title>Strathweb.CacheOutput.WebApi2</title>
+    <authors>Filip W</authors>
+    <owners>Filip W</owners>
+    <licenseUrl>https://github.com/filipw/AspNetWebApi-OutputCache/blob/master/License.txt</licenseUrl>
+    <projectUrl>https://github.com/filipw/AspNetWebApi-OutputCache</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A library bringing output caching (similar to MVC's "OutputCache"), to Web API actions. Strathweb.CacheOutput will take care of server side caching and set the appropriate client side (response) headers for you.
+
+This is a version for Web Api 2 only.</description>
+    <releaseNotes />
+    <copyright>2013 Filip W</copyright>
+    <language>en-CA</language>
+    <tags>aspnet webapi aspnetwebapi</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.0">
+        <dependency id="Microsoft.AspNet.WebApi.Core" version="5.0.0" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Runtime.Caching" targetFramework=".NETFramework4.0" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

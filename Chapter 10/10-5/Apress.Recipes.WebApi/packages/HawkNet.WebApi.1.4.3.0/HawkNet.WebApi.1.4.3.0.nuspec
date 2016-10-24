@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>HawkNet.WebApi</id>
+    <version>1.4.3.0</version>
+    <title>HawkNet.WebApi</title>
+    <authors>Pablo Cibraro</authors>
+    <owners>Pablo Cibraro</owners>
+    <projectUrl>https://github.com/pcibraro/hawknet</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Hawk Http Authentication for ASP.NET Web API</description>
+    <copyright>Copyright 2012</copyright>
+    <tags>Auth Security Hawk WebAPI ASPNET</tags>
+    <dependencies>
+      <dependency id="HawkNet" version="1.4.2.0" />
+      <dependency id="Microsoft.AspNet.WebApi.Core" version="5.1.0" />
+    </dependencies>
+  </metadata>
+</package>

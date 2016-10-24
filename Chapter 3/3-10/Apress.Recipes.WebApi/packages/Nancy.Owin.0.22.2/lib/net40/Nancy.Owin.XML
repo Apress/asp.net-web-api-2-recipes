@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Nancy.Owin</name>
+    </assembly>
+    <members>
+        <member name="T:Owin.AppBuilderExtensions">
+            <summary>
+            OWIN extensions for Nancy
+            </summary>
+        </member>
+        <member name="M:Owin.AppBuilderExtensions.UseNancy(Owin.IAppBuilder,Nancy.Owin.NancyOptions)">
+            <summary>
+            Adds Nancy to the OWIN pipeline.
+            </summary>
+            <param name="builder">The application builder.</param>
+            <param name="options">The Nancy options.</param>
+            <returns>IAppBuilder.</returns>
+        </member>
+        <member name="M:Owin.AppBuilderExtensions.UseNancy(Owin.IAppBuilder,System.Action{Nancy.Owin.NancyOptions})">
+            <summary>
+            Adds Nancy to the OWIN pipeline.
+            </summary>
+            <param name="builder">The application builder.</param>
+            <param name="configuration">A configuration builder action.</param>
+            <returns>IAppBuilder.</returns>
+        </member>
+        <member name="T:Nancy.Owin.NancyContextExtensions">
+            <summary>
+            OWIN extensions for the NancyContext.
+            </summary>
+        </member>
+        <member name="M:Nancy.Owin.NancyContextExtensions.GetOwinEnvironment(Nancy.NancyContext)">
+            <summary>
+            Gets the OWIN environment dictionary.
+            </summary>
+            <param name="context">The Nancy context.</param>
+            <returns>The OWIN environment dictionary.</returns>
+        </member>
+        <member name="T:Nancy.Owin.NancyOptions">
+            <summary>
+            Options for hosting Nancy with OWIN.
+            </summary>
+        </member>
+        <member name="P:Nancy.Owin.NancyOptions.Bootstrapper">
+            <summary>
+            Gets or sets the bootstrapper. If none is set, NancyBootstrapperLocator.Bootstrapper is used.
+            </summary>
+        </member>
+        <member name="P:Nancy.Owin.NancyOptions.PerformPassThrough">
+            <summary>
+            Gets or sets the delegate that determines if NancyOwinHost performs pass through.
+            </summary>
+        </member>
+        <member name="P:Nancy.Owin.NancyOptions.EnableClientCertificates">
+            <summary>
+            Gets or sets a value indicating whether to request a client certificate or not.
+            Defaults to false.
+            </summary>
+        </member>
+        <member name="T:Nancy.Owin.NancyOptionsExtensions">
+            <summary>
+            Extensions for the NancyOptions class.
+            </summary>
+        </member>
+        <member name="M:Nancy.Owin.NancyOptionsExtensions.PassThroughWhenStatusCodesAre(Nancy.Owin.NancyOptions,Nancy.HttpStatusCode[])">
+            <summary>
+            Tells the NancyOwinHost to pass through when 
+            response has one of the given status codes.
+            </summary>
+            <param name="nancyOptions">The Nancy options.</param>
+            <param name="httpStatusCode">The HTTP status code.</param>
+        </member>
+        <member name="T:Nancy.Owin.NancyOwinHost">
+            <summary>
+            Nancy host for OWIN hosts
+            </summary>
+        </member>
+        <member name="F:Nancy.Owin.NancyOwinHost.RequestEnvironmentKey">
+            <summary>
+            The request environment key
+            </summary>
+        </member>
+        <member name="M:Nancy.Owin.NancyOwinHost.#ctor(System.Func{System.Collections.Generic.IDictionary{System.String,System.Object},System.Threading.Tasks.Task},Nancy.Owin.NancyOptions)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Nancy.Owin.NancyOwinHost"/> class.
+            </summary>
+            <param name="next">Next middleware to run if necessary</param>
+            <param name="options">The nancy options that should be used by the host.</param>
+        </member>
+        <member name="M:Nancy.Owin.NancyOwinHost.Invoke(System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            OWIN App Action
+            </summary>
+            <param name="environment">Application environment</param>
+            <returns>Returns result</returns>
+        </member>
+        <member name="M:Nancy.Owin.NancyOwinHost.RequestComplete(System.Collections.Generic.IDictionary{System.String,System.Object},System.Func{Nancy.NancyContext,System.Boolean},System.Func{System.Collections.Generic.IDictionary{System.String,System.Object},System.Threading.Tasks.Task},System.Threading.Tasks.TaskCompletionSource{System.Int32})">
+            <summary>
+            Gets a delegate to handle converting a nancy response
+            to the format required by OWIN and signals that the we are
+            now complete.
+            </summary>
+            <param name="environment">OWIN environment.</param>
+            <param name="next">The next stage in the OWIN pipeline.</param>
+            <param name="tcs">The task completion source to signal.</param>
+            <param name="performPassThrough">A predicate that will allow the caller to determine if the request passes through to the 
+            next stage in the owin pipeline.</param>
+            <returns>Delegate</returns>
+        </member>
+        <member name="M:Nancy.Owin.NancyOwinHost.RequestErrored(System.Threading.Tasks.TaskCompletionSource{System.Int32})">
+            <summary>
+            Gets a delegate to handle request errors
+            </summary>
+            <param name="tcs">Completion source to signal</param>
+            <returns>Delegate</returns>
+        </member>
+        <member name="M:Nancy.Owin.NancyOwinHost.CreateUrl(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Creates the Nancy URL
+            </summary>
+            <param name="owinRequestHost">OWIN Hostname</param>
+            <param name="owinRequestScheme">OWIN Scheme</param>
+            <param name="owinRequestPathBase">OWIN Base path</param>
+            <param name="owinRequestPath">OWIN Path</param>
+            <param name="owinRequestQueryString">OWIN Querystring</param>
+            <returns></returns>
+        </member>
+        <member name="M:Nancy.Owin.NancyOwinHost.StoreEnvironment(System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>
+            Gets a delegate to store the OWIN environment into the NancyContext
+            </summary>
+            <param name="environment">OWIN Environment</param>
+            <returns>Delegate</returns>
+        </member>
+    </members>
+</doc>

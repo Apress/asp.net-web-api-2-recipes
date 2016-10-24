@@ -1,0 +1,112 @@
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Apress.Recipes.WebApi.dll.config
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Apress.Recipes.WebApi.dll
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Apress.Recipes.WebApi.pdb
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Antlr3.Runtime.dll
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Microsoft.Web.Infrastructure.dll
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Newtonsoft.Json.dll
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\RazorEngine.dll
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Net.Http.Formatting.dll
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Helpers.dll
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Http.dll
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Http.WebHost.dll
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Mvc.dll
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Optimization.dll
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Razor.dll
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.WebPages.Deployment.dll
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.WebPages.dll
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.WebPages.Razor.dll
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\WebApiContrib.Formatting.Html.dll
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\WebApiContrib.Formatting.Razor.dll
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\WebGrease.dll
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Antlr3.Runtime.pdb
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\RazorEngine.pdb
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\RazorEngine.xml
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Helpers.xml
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Mvc.xml
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Optimization.xml
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Razor.xml
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.WebPages.xml
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.WebPages.Deployment.xml
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.WebPages.Razor.xml
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\WebApiContrib.Formatting.Html.xml
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Newtonsoft.Json.xml
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Net.Http.Formatting.xml
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Http.xml
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Http.WebHost.xml
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\obj\Debug\Apress.Recipes.WebApi.csprojResolveAssemblyReference.cache
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\obj\Debug\Apress.Recipes.WebApi.dll
+D:\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\obj\Debug\Apress.Recipes.WebApi.pdb
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Apress.Recipes.WebApi.dll.config
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Apress.Recipes.WebApi.dll
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Apress.Recipes.WebApi.pdb
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Antlr3.Runtime.dll
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Newtonsoft.Json.dll
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\RazorEngine.dll
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Net.Http.Formatting.dll
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Helpers.dll
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Http.dll
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Http.WebHost.dll
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Mvc.dll
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Optimization.dll
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Razor.dll
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.WebPages.dll
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.WebPages.Razor.dll
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\WebApiContrib.Formatting.Html.dll
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\WebApiContrib.Formatting.Razor.dll
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\WebGrease.dll
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Antlr3.Runtime.pdb
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\RazorEngine.pdb
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\RazorEngine.xml
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Helpers.xml
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Mvc.xml
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Optimization.xml
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Razor.xml
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.WebPages.xml
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.WebPages.Razor.xml
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\WebApiContrib.Formatting.Html.xml
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Newtonsoft.Json.xml
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Net.Http.Formatting.xml
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Http.xml
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Http.WebHost.xml
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\obj\Debug\Apress.Recipes.WebApi.csprojResolveAssemblyReference.cache
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\obj\Debug\Apress.Recipes.WebApi.dll
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\obj\Debug\Apress.Recipes.WebApi.pdb
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Autofac.dll
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Autofac.Integration.WebApi.dll
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Autofac.xml
+C:\Users\filip.wojcieszyn\Dropbox\apress\code\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Autofac.Integration.WebApi.xml
+D:\Dropbox\apress\code\Chapter 8\8-8\Apress.Recipes.WebApi\Apress.Recipes.WebApi\obj\Debug\Apress.Recipes.WebApi.csprojResolveAssemblyReference.cache
+D:\Dropbox\apress\code\Chapter 8\8-8\Apress.Recipes.WebApi\Apress.Recipes.WebApi\obj\Debug\Apress.Recipes.WebApi.dll
+D:\Dropbox\apress\code\Chapter 8\8-8\Apress.Recipes.WebApi\Apress.Recipes.WebApi\obj\Debug\Apress.Recipes.WebApi.pdb
+D:\Dropbox\apress\code\Chapter 8\8-8\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Apress.Recipes.WebApi.dll.config
+D:\Dropbox\apress\code\Chapter 8\8-8\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Apress.Recipes.WebApi.dll
+D:\Dropbox\apress\code\Chapter 8\8-8\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Apress.Recipes.WebApi.pdb
+D:\Dropbox\apress\code\Chapter 8\8-8\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Antlr3.Runtime.dll
+D:\Dropbox\apress\code\Chapter 8\8-8\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Microsoft.Web.Infrastructure.dll
+D:\Dropbox\apress\code\Chapter 8\8-8\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Newtonsoft.Json.dll
+D:\Dropbox\apress\code\Chapter 8\8-8\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Net.Http.Formatting.dll
+D:\Dropbox\apress\code\Chapter 8\8-8\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Helpers.dll
+D:\Dropbox\apress\code\Chapter 8\8-8\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Http.dll
+D:\Dropbox\apress\code\Chapter 8\8-8\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Http.WebHost.dll
+D:\Dropbox\apress\code\Chapter 8\8-8\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Mvc.dll
+D:\Dropbox\apress\code\Chapter 8\8-8\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Optimization.dll
+D:\Dropbox\apress\code\Chapter 8\8-8\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Razor.dll
+D:\Dropbox\apress\code\Chapter 8\8-8\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.WebPages.Deployment.dll
+D:\Dropbox\apress\code\Chapter 8\8-8\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.WebPages.dll
+D:\Dropbox\apress\code\Chapter 8\8-8\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.WebPages.Razor.dll
+D:\Dropbox\apress\code\Chapter 8\8-8\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\WebGrease.dll
+D:\Dropbox\apress\code\Chapter 8\8-8\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Antlr3.Runtime.pdb
+D:\Dropbox\apress\code\Chapter 8\8-8\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Net.Http.Formatting.xml
+D:\Dropbox\apress\code\Chapter 8\8-8\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Helpers.xml
+D:\Dropbox\apress\code\Chapter 8\8-8\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Http.xml
+D:\Dropbox\apress\code\Chapter 8\8-8\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Http.WebHost.xml
+D:\Dropbox\apress\code\Chapter 8\8-8\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Mvc.xml
+D:\Dropbox\apress\code\Chapter 8\8-8\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Optimization.xml
+D:\Dropbox\apress\code\Chapter 8\8-8\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.Razor.xml
+D:\Dropbox\apress\code\Chapter 8\8-8\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.WebPages.xml
+D:\Dropbox\apress\code\Chapter 8\8-8\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.WebPages.Deployment.xml
+D:\Dropbox\apress\code\Chapter 8\8-8\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\System.Web.WebPages.Razor.xml
+D:\Dropbox\apress\code\Chapter 8\8-8\Apress.Recipes.WebApi\Apress.Recipes.WebApi\bin\Newtonsoft.Json.xml

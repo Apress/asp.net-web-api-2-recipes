@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>WebApiContrib.Tracing.Nlog</id>
+    <version>0.9.0.0</version>
+    <title>WebApiContrib.Tracing.Nlog</title>
+    <authors>WebApiContrib Contributors</authors>
+    <owners>WebApiContrib Contributors</owners>
+    <licenseUrl>https://raw.github.com/WebApiContrib/WebApiContrib.Tracing.NLog/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/WebApiContrib/WebApiContrib.Tracing.NLog</projectUrl>
+    <iconUrl>https://2.gravatar.com/avatar/f1ad1241dfb26dcb97abfeb8375a5971?s=128</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Description</description>
+    <copyright>Copyright © WebApiContrib 2012 - 2013</copyright>
+    <tags>webapi webapicontrib nlog logging</tags>
+    <dependencies>
+      <dependency id="Microsoft.AspNet.WebApi.Core" version="4.0.20710.0" />
+      <dependency id="NLog.Extended" version="2.0.0.2000" />
+    </dependencies>
+  </metadata>
+</package>

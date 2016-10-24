@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.WebSockets</id>
+    <version>0.2.3</version>
+    <title>Microsoft.WebSockets</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This preview package provides functionality for writing WebSocket-enabled server applications on Windows 8 using ASP.NET and WCF. Requires .NET 4.5 RC and Windows 8 RC.</description>
+    <copyright>Copyright © Microsoft 2012</copyright>
+  </metadata>
+</package>
